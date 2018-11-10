@@ -13,7 +13,7 @@
 # When I call the method and pass it a number not divisible by 3 or 5, it should return nil.
 
 def fizzbuzz(num)
-  if num % 3 && num % 5
+  if (num % 3 == 0 && num % 5 == 0)
     "Fizzbuzz"
     elsif num % 3 
     "Fizz"
